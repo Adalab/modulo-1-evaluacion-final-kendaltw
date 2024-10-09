@@ -1,0 +1,9 @@
+.container__images {
+  display: grid;
+  gap: 20px;
+
+  img {
+    grid-template-columns: 1fr;
+    border: 50px;
+  }
+}

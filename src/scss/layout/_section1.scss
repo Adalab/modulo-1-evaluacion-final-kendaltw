@@ -1,7 +1,20 @@
 .section1_div {
   display: flex;
+  flex-direction: column;
 
-  &__h3 {
-    color: $ColorPalette1;
-  }
+  //   &__h3 {
+  //     color: $ColorPalette1;
+  //   }
+}
+.section1__div__h3 {
+  color: $ColorPalette1;
+}
+.link-container {
+  /*no se ve*/
+  border: 1px;
+  width: 140px;
+  height: 45px;
+}
+.link {
+  text-decoration: none;
 }
