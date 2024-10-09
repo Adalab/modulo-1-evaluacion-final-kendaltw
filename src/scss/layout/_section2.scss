@@ -1,9 +1,12 @@
-.container__images {
+.container-img {
   display: grid;
-  gap: 20px;
+  grid-template-columns: 1fr minmax(114px);
+  grid-template-rows: 1fr 1fr 1fr minmax(114px);
 
-  img {
-    grid-template-columns: 1fr;
-    border: 50px;
-  }
+  background-color: lightgreen;
+}
+
+.container-img img {
+  width: 114px;
+  border-radius: 50%;
 }

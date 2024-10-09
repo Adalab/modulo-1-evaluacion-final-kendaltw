@@ -7,15 +7,17 @@
   height: 100vh;
   display: flex;
   width: 100vw;
-}
-.header__menu {
-  background-color: $ColorPalette1;
-  height: 36px;
-  width: 36px;
-  position: fixed;
-}
-.header__menu__img {
-  padding: 11px;
+
+  &__menu {
+    background-color: $ColorPalette1;
+    height: 36px;
+    width: 36px;
+    position: fixed;
+
+    &__img {
+      padding: 11px;
+    }
+  }
 }
 
 .header__text {
