@@ -1,8 +1,31 @@
-.container {
+.footer {
   background-color: $ColorPalette4;
+  color: $ColorPalette3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+
+  &__div1 {
+    color: $ColorPalette3;
+  }
+  &__div2 {
+    color: $ColorPalette3;
+  }
+}
+.footer_list1 {
+  color: $ColorPalette3;
+}
+.footer_list2 {
 }
 
-.fa-brands {
+.footer_list1 li {
+  color: $ColorPalette3;
+}
+.fa-solid fa-heart {
   color: black;
   background-color: lightcyan;
 }

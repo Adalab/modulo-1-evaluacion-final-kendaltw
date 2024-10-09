@@ -1,6 +1,13 @@
 .section2 {
   background-color: $ColorPalette2;
   padding-top: 25px;
+  padding-bottom: 25px;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .section2_container {
