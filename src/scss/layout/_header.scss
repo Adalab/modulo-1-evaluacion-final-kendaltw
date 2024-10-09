@@ -1,7 +1,25 @@
 .header {
-  background-image: url(../images/cover.jpeg);
-  height: 100%;
-  width: 100%;
+  background: url(../images/cover.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: $ColorPalette3;
+  height: 100vh;
   display: flex;
-  background-color: lightblue;
+  width: 100vw;
+}
+.header__menu {
+  background-color: $ColorPalette1;
+  height: 36px;
+  width: 36px;
+  position: fixed;
+}
+.header__menu__img {
+  padding: 11px;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
