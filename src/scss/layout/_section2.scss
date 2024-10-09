@@ -1,12 +1,17 @@
-.container-img {
+.section2 {
+  background-color: $ColorPalette2;
+  padding-top: 25px;
+}
+
+.section2_container {
   display: grid;
   grid-template-columns: 1fr minmax(114px);
   grid-template-rows: 1fr 1fr 1fr minmax(114px);
-
-  background-color: lightgreen;
 }
 
-.container-img img {
+.section2_title {
+}
+.section2_container img {
   width: 114px;
   border-radius: 50%;
 }

@@ -19,14 +19,18 @@
   border: 1px;
   border-color: $ColorPalette1;
   padding: 10px;
-  padding: 10px;
   width: 160px;
   height: 45px;
   margin-left: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .link {
   text-decoration: none;
+  color: $ColorPalette1;
+  border: 1px;
+  border-color: $ColorPalette1; /*no se ve nada de borde*/
+  padding: 10px;
 }
