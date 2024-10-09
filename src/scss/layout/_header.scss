@@ -2,11 +2,13 @@
   background: url(../images/cover.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: 85% 0%;
   color: $ColorPalette3;
   height: 100vh;
   display: flex;
   width: 100vw;
+  flex-direction: column;
+  align-items: end;
 
   &__menu {
     background-color: $ColorPalette1;
