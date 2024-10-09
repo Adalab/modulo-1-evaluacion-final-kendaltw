@@ -12,13 +12,33 @@
 
 .section2_container {
   display: grid;
-  grid-template-columns: 1fr minmax(114px);
-  grid-template-rows: 1fr 1fr 1fr minmax(114px);
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  margin: auto;
 }
 
-.section2_title {
-}
 .section2_container img {
   width: 114px;
   border-radius: 50%;
+}
+.container_empezar {
+  width: 184px;
+  height: 47px;
+  background-color: $ColorPalette1;
+}
+.container_scroll-up {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.scroll-up {
+  background-color: $ColorPalette3;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll-up img {
 }
