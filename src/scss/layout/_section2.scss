@@ -46,11 +46,10 @@
   align-items: center;
   border-radius: 20px;
   margin-top: 20px;
-  transition: background-color 0.5s;
-}
-
-.container__empezar :hover {
-  background-color: $ColorPalette4;
+  transition: color 0.5s;
+  &:hover {
+    color: $ColorPalette4;
+  }
 }
 
 .container__empezar a {
