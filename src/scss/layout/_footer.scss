@@ -15,15 +15,17 @@
   &__div2 {
     color: $ColorPalette3;
   }
-}
-.footer_list1 {
-  color: $ColorPalette3;
-}
-.footer_list2 {
-}
 
-.footer_list1 li a {
-  color: $ColorPalette3;
+  @media (min-width: 680px) {
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+}
+.werun {
+  @media (min-width: 680px) {
+    order: 1;
+  }
 }
 .fa-solid fa-heart {
   background-color: lightcyan;
