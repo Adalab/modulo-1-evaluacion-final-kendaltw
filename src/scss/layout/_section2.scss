@@ -16,14 +16,19 @@
 .section2_container {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 10px;
-  margin: auto;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .section2_container img {
   width: 114px;
   border-radius: 50%;
 }
+
+.section2_container li {
+  padding: 15px;
+}
+
 .container__empezar {
   width: 184px;
   height: 47px;
@@ -35,11 +40,16 @@
   border-radius: 20px;
   margin-top: 20px;
 }
+.container__empezar a {
+  font-size: 18px;
+}
+
 .container_scroll-up {
   padding-top: 30px;
   margin-bottom: -42px;
   position: relative;
 }
+
 .scroll-up {
   background-color: $ColorPalette3;
   width: 38px;
