@@ -21,6 +21,10 @@
       padding: 11px;
     }
   }
+
+  @media (min-width: 680px) {
+    padding-bottom: 3%;
+  }
 }
 .header__container {
   color: $ColorPalette3;
@@ -40,7 +44,7 @@
 }
 
 .header-title h1 {
-  font-family: "RobotoSlab-Bold";
+  font-family: $FontTextTitle;
 
   @media (min-width: 680px) {
     font-size: 85px;
