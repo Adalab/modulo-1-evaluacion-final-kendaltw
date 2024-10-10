@@ -16,8 +16,9 @@
 
 .link-comprar {
   color: $ColorPalette1;
-  border: 1px;
+  border: 1px solid $ColorPalette1;
   border-color: $ColorPalette1;
+  border-radius: 10px;
   padding: 10px;
   width: 160px;
   height: 45px;

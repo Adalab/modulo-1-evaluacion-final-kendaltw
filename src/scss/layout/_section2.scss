@@ -2,12 +2,15 @@
   background-color: $ColorPalette2;
   padding-top: 25px;
   padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-  &__title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  // &__title {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  // }
 }
 
 .section2_container {
@@ -21,15 +24,21 @@
   width: 114px;
   border-radius: 50%;
 }
-.container_empezar {
+.container__empezar {
   width: 184px;
   height: 47px;
+  color: $ColorPalette3;
   background-color: $ColorPalette1;
-}
-.container_scroll-up {
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.container_scroll-up {
   padding-top: 30px;
+  margin-bottom: -42px;
+  position: relative;
 }
 .scroll-up {
   background-color: $ColorPalette3;
@@ -39,6 +48,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.scroll-up img {
 }
