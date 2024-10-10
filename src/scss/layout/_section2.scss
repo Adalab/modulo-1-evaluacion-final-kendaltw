@@ -19,6 +19,7 @@
   @media (min-width: 680px) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    column-gap: 100px;
   }
 }
 

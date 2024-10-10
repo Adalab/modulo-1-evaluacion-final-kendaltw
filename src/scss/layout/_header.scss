@@ -34,10 +34,22 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     gap: 20px;
   }
+}
+
+.header-title h1 {
+  font-family: "RobotoSlab-Bold";
 
   @media (min-width: 680px) {
+    font-size: 85px;
+  }
+}
+.header-text {
+  @media (min-width: 680px) {
+    width: 350px;
+    font-size: 28px;
   }
 }
 
